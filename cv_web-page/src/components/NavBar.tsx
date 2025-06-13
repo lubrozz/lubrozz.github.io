@@ -7,10 +7,10 @@ const NavBar = () => {
   return (
     <>
       <nav className="nav justify-content-center">
-        <a className="nav-link active" aria-current="page" href="#">
+        <a className="navbar-links" aria-current="page" href="#">
           Active
         </a>
-        <a className="nav-link" href="#">
+        <a className="navbar-links" href="#">
           Link
         </a>
         <a className="nav-link" href="#">

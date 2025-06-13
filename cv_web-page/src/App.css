@@ -6,4 +6,6 @@
 
 .navbar-links {
   border-right: 2px solid #bbb;
+  text-align: center;
+  padding: 14px 16px;
 }
