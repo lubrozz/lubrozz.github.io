@@ -1,9 +1,9 @@
-//import Message from "./Message";
 import ListGroup from "./components/ListGroup";
 import Button from "./components/Button";
 import Alert from "./components/Alert";
 import { useState } from "react";
 import MainLayout from "./Layout/MainLayout";
+import NavBar from "./components/NavBar";
 
 /**
  * --------The Alert--------
@@ -35,7 +35,7 @@ function App() {
       {alertVisible && (
         <Alert onClose={() => setAlertVisibility(false)}>An Alert </Alert>
       )}
-
+      <NavBar></NavBar>
       <Button color="primary" onClick={() => setAlertVisibility(true)}>
         A button
       </Button>

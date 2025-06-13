@@ -1,0 +1,9 @@
+.solid-line {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.navbar-links {
+  border-right: 2px solid #bbb;
+}

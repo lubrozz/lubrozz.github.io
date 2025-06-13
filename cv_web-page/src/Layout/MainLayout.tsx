@@ -7,9 +7,14 @@ interface Props {
 const MainLayout = ({ children }: Props) => {
   return (
     <div>
-      <header>--------Here is the header---------</header>
+      <header style={{ textAlign: "center" }}>
+        <h1>--------Here is the header---------</h1>
+      </header>
+      <br></br>
       <main>{children}</main>
-      <footer>--------Here is the footer---------</footer>
+      <footer style={{ textAlign: "center" }}>
+        --------Here is the footer---------
+      </footer>
     </div>
   );
 };
