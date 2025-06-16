@@ -35,6 +35,7 @@ function App() {
       {alertVisible && (
         <Alert onClose={() => setAlertVisibility(false)}>An Alert </Alert>
       )}
+      <br></br>
       <NavBar></NavBar>
       <Button color="primary" onClick={() => setAlertVisibility(true)}>
         A button

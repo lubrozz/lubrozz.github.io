@@ -13,10 +13,10 @@ const NavBar = () => {
         <a className="navbar-links" href="#">
           Link
         </a>
-        <a className="nav-link" href="#">
+        <a className="navbar-links" href="#">
           Link
         </a>
-        <a className="nav-link disabled" aria-disabled="true">
+        <a className="navbar-links" aria-disabled="true">
           Disabled
         </a>
       </nav>
