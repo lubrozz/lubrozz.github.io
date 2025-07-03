@@ -1,3 +1,18 @@
+.solid-box {
+  background-color: #8a7e7b;
+  height: 120px;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.h1-color {
+  color: white;
+}
+
+.text-center {
+  text-align: center;
+}
+
 .solid-line {
   margin-left: auto;
   margin-right: auto;

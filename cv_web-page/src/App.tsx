@@ -1,5 +1,6 @@
-import ListGroup from "./components/ListGroup";
-import Button from "./components/Button";
+/**
+ * Starting the app with: npm run dev
+ */
 import Alert from "./components/Alert";
 import { useState } from "react";
 import MainLayout from "./Layout/MainLayout";
@@ -37,9 +38,6 @@ function App() {
       )}
       <br></br>
       <NavBar></NavBar>
-      <Button color="primary" onClick={() => setAlertVisibility(true)}>
-        A button
-      </Button>
     </MainLayout>
   );
 }
