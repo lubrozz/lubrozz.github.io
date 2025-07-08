@@ -1,10 +1,55 @@
+.grey {
+  background-color: rgb(65, 65, 58);
+}
+
 .solid-box {
-  background-color: #8a7e7b;
-  height: 120px;
+  background-color: none;
+  height: 60px;
   padding: 30px;
   box-sizing: border-box;
 }
 
+.center-box {
+  width: 60rem;
+  margin: auto;
+  padding: 0.25rem;
+  align-content: center;
+  border: 1px solid red;
+}
+
+.double-element {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  width: 100%;
+  padding: 2rem;
+  box-sizing: border-box;
+  margin-bottom: 0;
+}
+
+.nav {
+  display: "flex";
+  gap: "1.5rem";
+  flex-wrap: nowrap;
+  overflow: hidden;
+  margin: 0;
+}
+
+.navbar-links {
+  color: black;
+  border-right: 5px solid #bbb;
+  text-align: center;
+  padding: 0.25rem 3rem;
+  text-decoration: none;
+  font-size: 1.3rem;
+  white-space: nowrap;
+}
+
+/* this takes the last tag using the above css and applies the rules defined here to it */
+.navbar-links:last-child {
+  border-right: none;
+}
 .h1-color {
   color: white;
 }
@@ -14,20 +59,9 @@
 }
 
 .solid-line {
+  margin-top: 0rem;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
-}
-
-.navbar-links {
-  border-right: 2px solid #bbb;
-  text-align: center;
-  padding: 0.1% 2% 0.1% 2%;
-  text-decoration: none;
-  font-size: 120%;
-}
-
-/* this takes the last tag using the above css and applies the rules defined here to it */
-.navbar-links:last-child {
-  border-right: none;
+  border-top: 5px solid #bbb;
+  width: 95%;
 }
