@@ -1,10 +1,13 @@
 /**
  * Starting the app with: npm run dev
  */
-import Alert from "./components/Alert";
+
 import { useState } from "react";
 import MainLayout from "./Layout/MainLayout";
 import NavBar from "./components/NavBar";
+import AboutMe from "./components/AboutMe";
+import WorkExperience from "./components/WorkExperience";
+import QuickAbout from "./components/QuickAbout";
 
 /**
  * --------The Alert--------
@@ -29,15 +32,13 @@ function App() {
    * useState is done to set the state of an element. It creates an array of two elements.
    * The initial state and a changing state. The initial state is set in the '()'.
    */
-  const [alertVisible, setAlertVisibility] = useState(false);
 
   return (
     <MainLayout>
-      {alertVisible && (
-        <Alert onClose={() => setAlertVisibility(false)}>An Alert </Alert>
-      )}
       <br></br>
-      <NavBar></NavBar>
+      <QuickAbout />
+      <AboutMe />
+      <WorkExperience />
     </MainLayout>
   );
 }
