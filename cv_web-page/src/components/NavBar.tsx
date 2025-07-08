@@ -6,21 +6,20 @@ import "../App.css";
 const NavBar = () => {
   return (
     <>
-      <nav className="nav justify-content-center">
-        <a className="navbar-links" aria-current="page" href="#">
-          Active
+      <nav className="nav">
+        <a className="navbar-links" href="#about-me">
+          About me
+        </a>
+        <a className="navbar-links" href="#work-experience">
+          Work Experience
         </a>
         <a className="navbar-links" href="#">
-          Link
+          Projects
         </a>
         <a className="navbar-links" href="#">
-          Link
-        </a>
-        <a className="navbar-links" aria-disabled="true">
-          Disabled
+          Contact
         </a>
       </nav>
-      <hr className="solid-line"></hr>
     </>
   );
 };

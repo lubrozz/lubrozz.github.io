@@ -1,4 +1,5 @@
 import React, { ReactNode } from "react";
+import NavBar from "../components/NavBar";
 
 interface Props {
   children: ReactNode;
@@ -7,14 +8,19 @@ interface Props {
 const MainLayout = ({ children }: Props) => {
   return (
     <div>
-      <header className="text-center">
-        <div className="solid-box">
-          <h1 className="h1-color">--------Here is the header---------</h1>
+      <header className="double-element">
+        <div>
+          <h2 style={{ whiteSpace: "nowrap", margin: 0 }}>
+            Lukas Corlin Østergaard
+          </h2>
+        </div>
+        <div>
+          <NavBar />
         </div>
       </header>
+      <hr className="solid-line"></hr>
       <br></br>
-      <h2 className="text-center">Hello</h2>
-      <main>{children}</main>
+      <main className="center-box text-center">{children}</main>
       <footer className="text-center">
         <div className="solid-box">
           <h2>--------Here is the footer---------</h2>
