@@ -7,6 +7,9 @@ const WorkExperience = () => {
       <div id="work-experience">
         <h3>Work Experience</h3>
         <br />
+        <div>
+          <h4 style={{ textAlign: "left" }}>Abacus Medicine</h4>
+        </div>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
           rerum quae nam, nulla suscipit, architecto tempore obcaecati aut modi
