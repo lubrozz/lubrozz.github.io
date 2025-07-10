@@ -4,7 +4,6 @@
 
 import { useState } from "react";
 import MainLayout from "./Layout/MainLayout";
-import NavBar from "./components/NavBar";
 import AboutMe from "./components/AboutMe";
 import WorkExperience from "./components/WorkExperience";
 import QuickAbout from "./components/QuickAbout";
